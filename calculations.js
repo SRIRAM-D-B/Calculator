@@ -16,3 +16,6 @@ function Clear(){
 function del(){
     outputScreen.value = outputScreen.value.slice(0,-1);
 }
+function nextPage(){
+    window.location = "sample.html";
+}
